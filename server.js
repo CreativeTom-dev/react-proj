@@ -13,4 +13,4 @@ server.use(cors());
 server.use('/courses', coursesRoutes);
 server.use('/users', usersRoutes);
 
-server.listen(8080, () => console.log('Server for course is started...'));
+server.listen(3000, () => console.log('Server for course is started...'));

@@ -5,8 +5,7 @@ module.exports = {
   },
   devtool: "inline-source-map",
   module: {
-    rules: [
-      {
+    rules: [{
         test: /\.module\.s(a|c)ss$/,
         use: [
           "style-loader",
